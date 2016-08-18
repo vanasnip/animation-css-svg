@@ -2,6 +2,12 @@
   SVG styling
 
 ==========================*/
+svg {
+  display: block;
+  position: absolute;
+  overflow: hidden;
+}
+
 .submarine {
   .cls-1,
   .cls-16,

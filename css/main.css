@@ -18,6 +18,11 @@
   SVG styling
 
 ==========================*/
+svg {
+  display: block;
+  position: absolute;
+  overflow: hidden; }
+
 .submarine .cls-1,
 .submarine .cls-16,
 .submarine .cls-6 {
@@ -117,10 +122,69 @@
   layout of project elements
 
 ==========================*/
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+body {
+  background-color: #00adef; }
+
+.scene {
+  position: relative;
+  margin: 0 auto;
+  height: 100%;
+  width: 133.33333vh; }
+
+.waves {
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%; }
+
+.bottom {
+  bottom: -2px;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 16.97135%; }
+
+.submarine {
+  left: 0;
+  top: 24%;
+  z-index: 2;
+  width: 50.39063%;
+  height: 54.0599%; }
+
+.fish {
+  left: 70%;
+  top: 50%;
+  z-index: 3;
+  width: 12.40234%;
+  height: 11.04427%; }
+
+/*Media Queries
+==========================================*/
+@media (max-aspect-ratio: 4 / 3) {
+  body {
+    background-color: #036d8e; }
+
+  .scene {
+    width: 100%;
+    height: 75vw;
+    background-color: #00adef; } }
 /*==========================
   SVG styling
 
 ==========================*/
+svg {
+  display: block;
+  position: absolute;
+  overflow: hidden; }
+
 .submarine .cls-1,
 .submarine .cls-16,
 .submarine .cls-6 {

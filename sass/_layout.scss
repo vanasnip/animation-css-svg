@@ -2,3 +2,64 @@
   layout of project elements
 
 ==========================*/
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background-color: #00adef;
+}
+
+.scene {
+  position: relative;
+  margin: 0 auto;
+  height: 100%;
+  width: 100vh * 4/3;
+}
+.waves {
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+}
+.bottom {
+  bottom: -2px;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: (130.34/$sceneHeight * 100%);
+}
+
+.submarine {
+  left: 0;
+  top: 24%;
+  z-index: 2;
+  width: (516/$sceneWidth * 100%);
+  height: (415.18/$sceneHeight * 100%);
+}
+
+.fish {
+  left: 70%;
+  top: 50%;
+  z-index: 3;
+  width: (127/$sceneWidth * 100%);
+  height: (84.82/$sceneHeight * 100%);
+}
+
+/*Media Queries
+==========================================*/
+@media (max-aspect-ratio: 4/3) {
+  body {
+    background-color: #036d8e;
+  }
+  .scene {
+    width: 100%;
+    height: 100vw * 3/4;
+    background-color: #00adef;
+  }
+}

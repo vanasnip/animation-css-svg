@@ -1,8 +1,9 @@
-/*
-custom.js
-*/
-alert("I am an alert box!");
+/**
+ * Custom JS
+ */
+
 var scene = $('.scene');
+
 var svgs = [
   'svg/bottom.svg',
   'svg/fish.svg',
@@ -11,8 +12,8 @@ var svgs = [
 ];
 
 function loadSvgs() {
-  $.each(svgs, function(key, url){
-    $.get(url, function(data){
+  $.each(svgs, function(key, url) {
+    $.get(url, function(data) {
       $(data).find("svg").appendTo(scene);
     })
   });
