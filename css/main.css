@@ -1,0 +1,224 @@
+/*==========================
+  main Sass: import partials
+
+==========================*/
+/*==========================
+  mixins + global project variables
+
+==========================*/
+/*variables
+==========================*/
+/*Mixins
+==========================*/
+/*==========================
+  [keyframe] animation
+
+==========================*/
+/*==========================
+  SVG styling
+
+==========================*/
+.submarine .cls-1,
+.submarine .cls-16,
+.submarine .cls-6 {
+  fill: #dbf902; }
+.submarine .cls-15,
+.submarine .cls-2,
+.submarine .cls-8 {
+  fill: #f51; }
+.submarine .cls-3,
+.submarine .cls-9 {
+  fill: #d6e9ff; }
+.submarine .cls-11,
+.submarine .cls-12,
+.submarine .cls-14,
+.submarine .cls-15,
+.submarine .cls-16,
+.submarine .cls-3,
+.submarine .cls-5,
+.submarine .cls-6,
+.submarine .cls-7,
+.submarine .cls-8 {
+  stroke: #393434;
+  stroke-miterlimit: 10; }
+.submarine .cls-16,
+.submarine .cls-3,
+.submarine .cls-7 {
+  stroke-width: 4px; }
+.submarine .cls-4 {
+  fill: #393434; }
+.submarine .cls-11,
+.submarine .cls-14,
+.submarine .cls-17,
+.submarine .cls-5,
+.submarine .cls-7 {
+  fill: none; }
+.submarine .cls-12,
+.submarine .cls-5,
+.submarine .cls-6,
+.submarine .cls-8 {
+  stroke-width: 8px; }
+.submarine .cls-10 {
+  fill: #fff; }
+.submarine .cls-11 {
+  stroke-width: 6px; }
+.submarine .cls-12,
+.submarine .cls-13 {
+  fill: #f1fd9a; }
+.submarine .cls-14,
+.submarine .cls-15 {
+  stroke-width: 5px; }
+
+.fish .cls-1 {
+  fill: #dbf903; }
+.fish .cls-2,
+.fish .cls-7 {
+  fill: none;
+  stroke-width: 4px; }
+.fish .cls-2 {
+  stroke: #c29533; }
+.fish .cls-2,
+.fish .cls-3,
+.fish .cls-7 {
+  stroke-miterlimit: 10; }
+.fish .cls-3,
+.fish .cls-5 {
+  fill: #fff; }
+.fish .cls-3,
+.fish .cls-7 {
+  stroke: #8a2424; }
+.fish .cls-3 {
+  stroke-width: 2px; }
+.fish .cls-4 {
+  fill: #393434; }
+.fish .cls-6 {
+  fill: #8a2424; }
+
+.waves .cls-1 {
+  fill: #7aceef; }
+
+.bottom .cls-1 {
+  fill: #036962; }
+.bottom .cls-2 {
+  fill: #048c82; }
+.bottom .cls-3 {
+  fill: none;
+  stroke: #036962;
+  stroke-miterlimit: 10;
+  stroke-width: 4px; }
+.bottom .cls-4 {
+  fill: #9c6f13; }
+.bottom .cls-5 {
+  fill: #7d4217; }
+.bottom .cls-6 {
+  fill: #036d8e; }
+
+/*==========================
+  layout of project elements
+
+==========================*/
+/*==========================
+  SVG styling
+
+==========================*/
+.submarine .cls-1,
+.submarine .cls-16,
+.submarine .cls-6 {
+  fill: #dbf902; }
+.submarine .cls-15,
+.submarine .cls-2,
+.submarine .cls-8 {
+  fill: #f51; }
+.submarine .cls-3,
+.submarine .cls-9 {
+  fill: #d6e9ff; }
+.submarine .cls-11,
+.submarine .cls-12,
+.submarine .cls-14,
+.submarine .cls-15,
+.submarine .cls-16,
+.submarine .cls-3,
+.submarine .cls-5,
+.submarine .cls-6,
+.submarine .cls-7,
+.submarine .cls-8 {
+  stroke: #393434;
+  stroke-miterlimit: 10; }
+.submarine .cls-16,
+.submarine .cls-3,
+.submarine .cls-7 {
+  stroke-width: 4px; }
+.submarine .cls-4 {
+  fill: #393434; }
+.submarine .cls-11,
+.submarine .cls-14,
+.submarine .cls-17,
+.submarine .cls-5,
+.submarine .cls-7 {
+  fill: none; }
+.submarine .cls-12,
+.submarine .cls-5,
+.submarine .cls-6,
+.submarine .cls-8 {
+  stroke-width: 8px; }
+.submarine .cls-10 {
+  fill: #fff; }
+.submarine .cls-11 {
+  stroke-width: 6px; }
+.submarine .cls-12,
+.submarine .cls-13 {
+  fill: #f1fd9a; }
+.submarine .cls-14,
+.submarine .cls-15 {
+  stroke-width: 5px; }
+
+.fish .cls-1 {
+  fill: #dbf903; }
+.fish .cls-2,
+.fish .cls-7 {
+  fill: none;
+  stroke-width: 4px; }
+.fish .cls-2 {
+  stroke: #c29533; }
+.fish .cls-2,
+.fish .cls-3,
+.fish .cls-7 {
+  stroke-miterlimit: 10; }
+.fish .cls-3,
+.fish .cls-5 {
+  fill: #fff; }
+.fish .cls-3,
+.fish .cls-7 {
+  stroke: #8a2424; }
+.fish .cls-3 {
+  stroke-width: 2px; }
+.fish .cls-4 {
+  fill: #393434; }
+.fish .cls-6 {
+  fill: #8a2424; }
+
+.waves .cls-1 {
+  fill: #7aceef; }
+
+.bottom .cls-1 {
+  fill: #036962; }
+.bottom .cls-2 {
+  fill: #048c82; }
+.bottom .cls-3 {
+  fill: none;
+  stroke: #036962;
+  stroke-miterlimit: 10;
+  stroke-width: 4px; }
+.bottom .cls-4 {
+  fill: #9c6f13; }
+.bottom .cls-5 {
+  fill: #7d4217; }
+.bottom .cls-6 {
+  fill: #036d8e; }
+
+/*==========================
+  Animations
+
+==========================*/
+
+/*# sourceMappingURL=main.css.map */
