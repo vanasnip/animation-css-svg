@@ -2,3 +2,12 @@
   Animations
 
 ==========================*/
+.cssanimations {
+	.waves {
+		@include vendorize(animation, bgMove 30s linear infinite);
+	}
+
+	.bottom {
+		@include vendorize(animation, bgMove 30s linear infinite);
+	}
+}
