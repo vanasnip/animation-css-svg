@@ -5,16 +5,20 @@
 var scene = $('.scene');
 
 var svgs = [
-  'svg/bottom.svg',
-  'svg/fish.svg',
-  'svg/submarine.svg',
-  'svg/waves.svg'
+  'svg/bottom.svg': '5',
+  'svg/fish.svg': '5',
+  'svg/submarine.svg': '1',
+  'svg/waves.svg': '1'
 ];
 
 function loadSvgs() {
-  $.each(svgs, function(key, url) {
+  $.each(svgs, function(url, total) {
     $.get(url, function(data) {
-      $(data).find("svg").appendTo(scene);
+      var svg = $(data).find("svg").first(),
+      svgClass = svg.attr('class');
+      for (var i = 0; 1 < total; i++){
+        svg.attr('class', svgClass = " " + svgClass + '-' + (i + 1)).clone().appendTo(scene);
+      }
     })
   });
 }
