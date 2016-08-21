@@ -10,4 +10,15 @@
 	.bottom {
 		@include vendorize(animation, bgMove 30s linear infinite);
 	}
+
+	.submarine {
+		&, svg {
+			overflow: visible;
+		}
+		@include vendorize(animation, bob 4s linear infinite);
+
+		.propeller > g {
+			@include vendorize(animation, spin 2s linear infinite);
+		}
+	}
 }
